@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한초음파의학회</title>
+    <!-- style 연결 -->
+    <link rel="stylesheet" href="../assets/style.css">
+    <!-- jquery 다운 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- script 연결 -->
+    <script src="../assets/script.js" defer></script>
+    <!-- font 다운 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-center center-layout">
+        <div class="logo">
+          <a title="logo" href="#">
+            
+            <img src="../assets/images/logo.png" alt="회사 로고" >
+          </a>
+        </div>
+        <nav class="sign-content">
+          <ul class="signup">
+            <li class="sign-item"><a title="홈" href="#">Home</a></li>
+            <li class="sign-item"><a title="로그인" href="#">Login</a></li>
+            <li class="sign-item"><a title="join" href="#">Join</a></li>
+            <li class="sign-item sign-item-lang">
+              <a title="English" href="#">English</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="menu-tg-bt" type="button">
+          <img src="../assets/images/hamBar.png" alt="메뉴 열기" >
+        </button>
+      </div>
+    </header>
+    <!-- menu -->
+    <div class="menu-content">
+      <div class="menu-center center-layout">
+        <!-- 햄버거 메뉴 -->
+        <div class="toggle-menu-header">
+          <button type="button" class="close">
+            <img src="../assets/images/close.png" alt="햄버거 메뉴 닫기" >
+          </button>
+          <div class="ham-logo">
+            <img src="../assets/images/ham-logo.png" alt="회사 로고" >
+          </div>
+          <nav class="ham-signup">
+            <ul class="ham-signs">
+              <li class="ham-sign-item"><a href="#">로그인</a></li>
+              <li class="ham-sign-item"><a href="#">회원가입</a></li>
+              <li class="ham-sign-item"><a href="#">English</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- list -->
+        <ul class="menu-list">
+          <li class="menu-list-item">
+            <a href="#"
+              >학회소개
+              <img
+                src="../assets/images/arrowUp.png"
+                class="list-item-arrow-up"
+                alt="메뉴 화살표"
+              >
+            </a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#">인사말</a></li>
+              <li class="submenu-item"><a href="#">연혁</a></li>
+              <li class="submenu-item"><a href="#">회칙</a></li>
+              <li class="submenu-item"><a href="#">임원진 및 위원회</a></li>
+              <li class="submenu-item"><a href="#">사무국 안내 </a></li>
+            </ul>
+          </li>
+          <li class="menu-list-item">
+            <a href="#"
+              >학회지
+              <img
+                src="../assets/images/arrowUp.png"
+                class="list-item-arrow-up"
+                alt="메뉴 화살표"
+              >
+            </a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#">학회지 </a></li>
+            </ul>
+          </li>
+          <li class="menu-list-item">
+            <a href="#"
+              >행사일정
+              <img
+                src="../assets/images/arrowUp.png"
+                class="list-item-arrow-up"
+                alt="메뉴 화살표"
+              >
+            </a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#">정기학술대회</a></li>
+              <li class="submenu-item">
+                <a href="#">My Unforgettable Ultrasound 수상작</a>
+              </li>
+              <li class="submenu-item"><a href="#">정기연수교육</a></li>
+              <li class="submenu-item"><a href="#">정기 Hands-on 교육</a></li>
+              <li class="submenu-item"><a href="#">이사회 및 중요행사</a></li>
+              <li class="submenu-item"><a href="#">국제학회 일정 </a></li>
+            </ul>
+          </li>
+          <li class="menu-list-item">
+            <a href="#"
+              >회원공간
+              <img
+                src="../assets/images/arrowUp.png"
+                class="list-item-arrow-up"
+                alt="메뉴 화살표"
+              >
+            </a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#">공지사항</a></li>
+              <li class="submenu-item"><a href="#">뉴스레터</a></li>
+              <li class="submenu-item"><a href="#">게시판</a></li>
+              <li class="submenu-item"><a href="#">자료실</a></li>
+              <li class="submenu-item"><a href="#">증례토론</a></li>
+              <li class="submenu-item"><a href="#">VODs </a></li>
+            </ul>
+          </li>
+          <li class="menu-list-item">
+            <a href="#"
+              >관련사이트
+              <img
+                src="../assets/images/arrowUp.png"
+                class="list-item-arrow-up"
+                alt="메뉴 화살표"
+              >
+            </a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#">관련사이트 </a></li>
+            </ul>
+          </li>
+          <li class="menu-list-item">
+            <a href="#"
+              >교육자료
+              <img
+                src="../assets/images/arrowUp.png"
+                class="list-item-arrow-up"
+                alt="메뉴 화살표"
+              >
+            </a>
+            <ul class="submenu">
+              <li class="submenu-item"><a href="#">일반인을 위한 초음파</a></li>
+              <li class="submenu-item"><a href="#">연수교육 자료</a></li>
+              <li class="submenu-item"><a href="#">KAFE 자료 </a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <main class="main-content">
+      <div class="main-center center-layout">
+        <!-- main-info -->
+        <div class="main-info">
+          <!--  banner-slide -->
+          <article class="info-content banner-slide">
+            <ul class="banner-slider">
+              <li class="banner-slide-item">
+                <h3 class="title">대한초음파의학회는</h3>
+                <p class="description">
+                  초음파 의학의 연구발전과 회원상호간의 친목과 교류를 통하여
+                  <br>
+                  초음파의학분야의 발전에 이바지 합니다.
+                </p>
+              </li>
+              <li class="banner-slide-item">
+                <h3 class="title">대한초음파의학회는</h3>
+                <p class="description">
+                  초음파 의학의 연구발전과 회원상호간의 친목과 교류를 통하여
+                  초음파의학분야의 발전에 이바지 합니다.
+                </p>
+              </li>
+              <li class="banner-slide-item">
+                <h3 class="title">대한초음파의학회는</h3>
+                <p class="description">
+                  초음파 의학의 연구발전과 회원상호간의 친목과 교류를 통하여
+                  초음파의학분야의 발전에 이바지 합니다.
+                </p>
+              </li>
+            </ul>
+            <ul class="banner-slide-dots">
+              <li class="banner-slide-dot-item active"></li>
+              <li class="banner-slide-dot-item"></li>
+              <li class="banner-slide-dot-item"></li>
+            </ul>
+          </article>
+          <!--  notice -->
+          <article class="info-content notice">
+            <header class="article-header">
+              <h2 class="title">공지사항</h2>
+              <button type="button">
+                <img
+                  src="../assets/images/more.png"
+                  alt="공지사항 더보기 버튼"
+                >
+              </button>
+            </header>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="#"
+                      >대한초음파의학회 13차 인증의 신규지원접수
+                      대한초음파의학회 13차 인증의 신규지원접수</a
+                    >
+                  </td>
+                  <td>2018-08-29</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="#">KSUM International Fellow Tutor 교수님 모집 </a>
+                  </td>
+                  <td>2018-07-06</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="#">
+                      “상복부 초음파 보험적용 범위 전면확대” 요약
+                    </a>
+                  </td>
+                  <td>2018-03-30</td>
+                </tr>
+                <tr>
+                  <td><a href="#"> 인증의 갱신사이트 Open 안내 </a></td>
+                  <td>2017-05-16</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+        <!-- main-more -->
+        <div class="main-more">
+          <!-- more-slide -->
+          <div class="more-content more-slide">
+            <ul class="more-slider">
+              <li class="more-slide-item">
+                <a class="more-bt" title="자세히 보기" href="#"> 자세히보기 </a>
+              </li>
+              <li class="more-slide-item">
+                <a class="more-bt" title="자세히 보기" href="#"> 자세히보기 </a>
+              </li>
+              <li class="more-slide-item">
+                <a class="more-bt" title="자세히 보기" href="#"> 자세히보기 </a>
+              </li>
+            </ul>
+            <ul class="arrowbts">
+              <li class="arrowbt arrowbt-left">
+                <button type="button">
+                  <img
+                    src="../assets/images/arrow-left.png"
+                    alt="왼쪽 이동 버튼"
+                  >
+                </button>
+              </li>
+              <li class="arrowbt arrowbt-right">
+                <button type="button">
+                  <img
+                    src="../assets/images/arrow-righr.png"
+                    alt="오른쪽 이동 버튼"
+                  >
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- more-contents -->
+          <div class="more-content more-contents">
+            <article class="more-content-container case-discussion">
+              <header class="article-header">
+                <h2 class="title">증례토론</h2>
+                <button type="button">
+                  <img
+                    src="../assets/images/more.png"
+                    alt="증례토론 더보기 버튼"
+                  >
+                </button>
+              </header>
+              <div class="more-contet">
+                <a href="#">
+                  <img
+                    class="more-content-img"
+                    src="../assets/images/contentimg.jpg"
+                    alt="증례토론 주제"
+                  >
+                  <div class="more-content-in case-discussion-in">
+                    <h3 class="title">F/9세, hematuria</h3>
+                    <p class="description">
+                      화면에 보이는 것은 다음 중 어떤 artifact 일까요? aliasing
+                      artifact / flash artifact / mirror artifact / motion
+                      artifact / twinkle artifact
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </article>
+            <article class="more-content-container academic-journal">
+              <header class="article-header">
+                <h2 class="title">학회지</h2>
+                <button type="button">
+                  <img
+                    src="../assets/images/more.png"
+                    alt="학회지 더보기 버튼"
+                  >
+                </button>
+              </header>
+              <div class="more-contet">
+                <img
+                  class="more-content-img"
+                  src="../assets/images/book.png"
+                  alt="학회지 종이"
+                >
+                <div class="more-content-in academic-journal-in">
+                  <ul class="academic-journal-list">
+                    <li class="academic-journal-list-item">
+                      <a title="ULTRA SONOGRAPY 사이트" href="#">
+                        ULTRA SONOGRAPY
+                      </a>
+                    </li>
+                    <li class="academic-journal-list-item">
+                      <a title="ONLINE MANUSCRIPT SUNMISSION 사이트" href="#"
+                        >ONLINE MANUSCRIPT <br>
+                        SUNMISSION
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- quick-link -->
+        <div class="quick-link">
+          <ul class="quick-links">
+            <li class="quick-link-item">
+              <a title="바로가기" href="#"
+                ><img
+                  src="../assets/images/quickLink1.jpg"
+                  alt="초음파 진료 소개"
+              ></a>
+            </li>
+            <li class="quick-link-item">
+              <a title="바로가기" href="#"
+                ><img src="../assets/images/quickLink2.jpg" alt="교육 홈페이지"
+              ></a>
+            </li>
+            <li class="quick-link-item">
+              <a title="바로가기" href="#"
+                ><img
+                  src="../assets/images/quickLink3.jpg"
+                  alt="초음파 인증의 제도"
+              ></a>
+            </li>
+            <li class="quick-link-item">
+              <a title="바로가기" href="#"
+                ><img src="../assets/images/quickLink4.jpg" alt="International"
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- zone -->
+        <div class="zone">
+          <ul class="zone-bts">
+            <li class="zone-bt zone-bt-left">
+              <button type="button">
+                <img src="../assets/images/left-ar.png" alt="왼쪽 버튼" >
+              </button>
+            </li>
+            <li class="zone-bt zone-bt-right">
+              <button type="button">
+                <img src="../assets/images/rrrbt.png" alt="오른쪽 버튼" >
+              </button>
+            </li>
+          </ul>
+          <div class="zone-slide">
+            <ul class="zone-slider">
+              <li class="zone-slide-item">
+                <a title="바로가기" href="#">
+                  <img src="../assets/images/banner1.jpg" alt="관련 웹페이" >
+                </a>
+              </li>
+              <li class="zone-slide-item">
+                <a title="바로가기" href="#">
+                  <img src="../assets/images/banner2.jpg" alt="관련 웹페이" >
+                </a>
+              </li>
+              <li class="zone-slide-item">
+                <a title="바로가기" href="#">
+                  <img src="../assets/images/banner3.jpg" alt="관련 웹페이" >
+                </a>
+              </li>
+              <li class="zone-slide-item">
+                <a title="바로가기" href="#">
+                  <img src="../assets/images/banner1.jpg" alt="관련 웹페이" >
+                </a>
+              </li>
+              <li class="zone-slide-item">
+                <a title="바로가기" href="#">
+                  <img src="../assets/images/banner2.jpg" alt="관련 웹페이" >
+                </a>
+              </li>
+              <li class="zone-slide-item">
+                <a title="바로가기" href="#">
+                  <img src="../assets/images/banner3.jpg" alt="관련 웹페이" >
+                </a>
+              </li>
+              <li class="zone-slide-item">
+                <a title="바로가기" href="#">
+                  <img src="../assets/images/banner1.jpg" alt="관련 웹페이" >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-center center-layout">
+        <div class="foot-text">
+          <ul class="fot">
+            <li class="fot-item">
+              <a title="개인정보 취금 방침" href="#">개인정보 취급 방침</a>
+            </li>
+            <li class="fot-item">
+              <a title="이메일 무단 수집 거부" href="#"
+                >이메일 무단 수집 거부</a
+              >
+            </li>
+          </ul>
+          <address>
+            서울시 마포구 마포대로 53 마포트라팰리스 A동 304호 사업자등록번호 :
+            229-82-00887 대표자: 이원재<br>
+            Tel. +82-2-763-5627 Fax. +82-2-763-6909 E-mail :
+            office@ultrasound.or.kr
+          </address>
+          <small>Copyright©by Korean Society of Ultrasound in Medicine </small>
+        </div>
+        <div class="family-site">
+          <select name="familysite" id="fs">
+            <optgroup label="관련사이트">
+              <option value="#" selected>관련사이트</option>
+              <option value="#">관련사이트</option>
+              <option value="#">관련사이트</option>
+              <option value="#">관련사이트</option>
+              <option value="#">관련사이트</option>
+            </optgroup>
+          </select>
+          <img class="mark" src="../assets/images/foLink.jpg" alt="마크" >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
